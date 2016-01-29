@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "ember-cli-deploy-display-revisions": "0.1.0",
-    "ember-cli-deploy-dist": "0.1.0",
+    "ember-cli-deploy-dist-dir": "0.1.0",
     "ember-cli-deploy-json-config": "0.1.0",
     "ember-cli-deploy-manifest": "0.1.0",
     "ember-cli-deploy-revision-data": "0.1.0",
