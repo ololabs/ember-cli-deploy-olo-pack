@@ -1,26 +1,22 @@
-# Ember-cli-deploy-olo-pack
+# ember-cli-deploy-olo-pack
 
-This README outlines the details of collaborating on this Ember addon.
+> An ember-cli-deploy plugin pack to implement a deployment pattern for Olo's Ember apps
+
+<hr/>
+**WARNING: This plugin pack is only compatible with ember-cli-deploy versions >= 0.5.0**
+<hr/>
+
+This plugin pack is intended for internal use by Olo.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-cli-deploy
+ember install ember-cli-deploy-olo-pack
+```
 
-## Running
+The necessary set of plugins will be available to ember-cli-deploy and an example `deploy/config.js` file will be generated for you to customize with information about your app.
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+## What is a plugin pack?
 
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+A "plugin pack" is a concept supported by ember-cli-deploy that allows a single addon to make multiple plugins available by adding a single direct depedency to your project.
