@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-olo-pack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A pack of ember-cli-deploy plugins for deploying Olo's Ember apps.",
   "repository": "https://github.com/ololabs/ember-cli-deploy-olo-pack",
   "scripts": { },
