@@ -1,31 +1,39 @@
 {
   "name": "ember-cli-deploy-olo-pack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A pack of ember-cli-deploy plugins for deploying Olo's Ember apps.",
-  "repository": "https://github.com/ololabs/ember-cli-deploy-olo-pack",
-  "scripts": { },
-  "repository": "",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "author": "Olo",
-  "license": "MIT",
-  "devDependencies": {
-    "ember-cli": "1.13.14",
-    "ember-cli-release": "0.2.8"
-  },
   "keywords": [
     "ember-addon",
     "ember-cli-deploy-plugin-pack"
   ],
+  "license": "MIT",
+  "author": "Olo",
+  "directories": {},
+  "repository": "",
+  "scripts": {},
   "dependencies": {
     "ember-cli-deploy-display-revisions": "^0.1.0",
     "ember-cli-deploy-dist-dir": "^0.1.0",
-    "ember-cli-deploy-json-config": "^0.2.0",
-    "ember-cli-deploy-manifest": "^0.1.0",
-    "ember-cli-deploy-revision-data": "^0.1.0",
-    "ember-cli-deploy-s3": "^0.2.0",
-    "ember-cli-deploy-s3-index": "^0.2.0"
+    "ember-cli-deploy-json-config": "^1.0.0",
+    "ember-cli-deploy-manifest": "^1.1.0",
+    "ember-cli-deploy-revision-data": "^1.0.0",
+    "ember-cli-deploy-s3": "^1.1.0",
+    "ember-cli-deploy-s3-index": "^1.0.0",
+    "ember-cli-babel": "^6.3.0"
+  },
+  "devDependencies": {
+    "ember-cli": "~2.14.0",
+    "ember-cli-eslint": "^3.0.0",
+    "ember-cli-release": "0.2.8",
+    "ember-cli-shims": "^1.1.0",
+    "ember-load-initializers": "^1.0.0",
+    "ember-resolver": "^4.0.0",
+    "ember-source": "~2.14.0",
+    "ember-welcome-page": "^3.0.0",
+    "loader.js": "^4.2.3"
+  },
+  "engines": {
+    "node": "^4.5 || 6.* || >= 7.*"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
