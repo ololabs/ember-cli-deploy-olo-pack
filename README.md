@@ -3,7 +3,7 @@
 > An ember-cli-deploy plugin pack to implement a deployment pattern for Olo's Ember apps
 
 <hr/>
-**WARNING: This plugin pack is only compatible with ember-cli-deploy versions >= 0.5.0**
+**WARNING: This plugin pack is only compatible with ember-cli-deploy versions >= 1.0.0**
 <hr/>
 
 This plugin pack is intended for internal use by Olo.
