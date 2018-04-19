@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-olo-pack",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A pack of ember-cli-deploy plugins for deploying Olo's Ember apps.",
   "keywords": [
     "ember-addon",
@@ -17,12 +17,12 @@
     "ember-cli-deploy-json-config": "^1.0.0",
     "ember-cli-deploy-manifest": "^1.1.0",
     "ember-cli-deploy-revision-data": "^1.0.0",
-    "ember-cli-deploy-s3": "^1.1.0",
-    "ember-cli-deploy-s3-index": "^1.0.0",
+    "ember-cli-deploy-s3": "^1.2.0",
+    "ember-cli-deploy-s3-index": "^1.0.1",
     "ember-cli-babel": "^6.3.0"
   },
   "devDependencies": {
-    "ember-cli": "~2.14.0",
+    "ember-cli": "~3.1.2",
     "ember-cli-eslint": "^3.0.0",
     "ember-cli-release": "0.2.8",
     "ember-cli-shims": "^1.1.0",
