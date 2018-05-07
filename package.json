@@ -12,20 +12,21 @@
   "repository": "",
   "scripts": {},
   "dependencies": {
+    "ember-cli-babel": "^6.12.0",
     "ember-cli-deploy-display-revisions": "^0.1.0",
     "ember-cli-deploy-dist-dir": "^0.1.4",
     "ember-cli-deploy-json-config": "^1.0.0",
     "ember-cli-deploy-manifest": "^1.1.0",
     "ember-cli-deploy-revision-data": "^1.0.0",
     "ember-cli-deploy-s3": "^1.2.0",
-    "ember-cli-deploy-s3-index": "^1.0.1",
-    "ember-cli-babel": "^6.12.0"
+    "ember-cli-deploy-s3-index": "^1.0.1"
   },
   "devDependencies": {
     "ember-cli": "~3.1.2",
     "ember-cli-eslint": "^3.0.0",
     "ember-cli-release": "0.2.8",
     "ember-cli-shims": "^1.1.0",
+    "ember-cli-update": "^0.21.3",
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.14.0",
