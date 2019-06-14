@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-olo-pack",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "A pack of ember-cli-deploy plugins for deploying Olo's Ember apps.",
   "keywords": [
     "ember-addon",
